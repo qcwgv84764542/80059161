@@ -1,3 +1,4 @@
+try {
 PreparedStatement ps = con.prepareStatement("select SYSDATE from dual");
 while (rs.next())
 hello world

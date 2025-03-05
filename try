@@ -1,3 +1,4 @@
+String userName = props.getProperty("db.user");
 try {
 PreparedStatement ps = con.prepareStatement("select SYSDATE from dual");
 while (rs.next())

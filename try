@@ -1,3 +1,4 @@
+ResultSet rs = ps.executeQuery();
 con=DriverManager.getConnection(url, userName, password);
 String url = props.getProperty("db.url");
 rs.close();
